@@ -6,14 +6,14 @@
 
 <script>
 export default {
-  name: "my-button",
+  name: 'MyButton',
 
   methods: {
     onClick() {
-      this.$emit("click");
+      this.$emit('click')
     }
   }
-};
+}
 </script>
 
 <style>
